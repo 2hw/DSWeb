@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        body {
+        background-color:#87ceaf;
+
+        }
+        body div {
+            background-color: white;
+            margin: 10px;
+        }
+        .hdDiv, .ftDiv {
+            height: 100px;
+        }
+        .stDiv {
+            height: 300px;
+            padding: 20px;
+            text-align: center;
+        }
+        .btn-big {
+            width: 100px;
+            height: 20px;
+            color: white;
+            background-color:#70b4bd;
+            box-shadow: 3px;
+            text-align: center;
+        }
+        .hdDiv > .btn-big {
+            float:right;
+            margin:5px;
+            color: #253b9e;
+        }
+        .section > div > div {
+            margin: 10px;
+            height: 200px;
+        }
+        .st-half {
+            max-height: 100%;
+            height: 50%;
+        }
+        .st-half > div {
+            position: relative;
+            float:left;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="hdDiv">
+            <button class="btn-big">홈</button>
+            <button class="btn-big">자기소개</button>
+            <button class="btn-big">내사진</button>
+            <button class="btn-big">몇시에요</button>
+        </div>
+
+    </div>
+
+    <div class="section">
+        <div class="stDiv">
+            <div class="st-half">
+                <div>테두리설정한 사진</div>
+                <div>글</div>
+            </div>
+            <div class="st-half">
+                <div>테두리설정한 사진</div>
+                <div>글</div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <div class="ftDiv">footer div</div>
+    </div>
+
+</body>
+</html>
